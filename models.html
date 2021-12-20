@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Volkswagen Models</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./img/logod.svg">
+    <link rel="stylesheet" href="css/vendor/fancybox.css">
+    <link rel="stylesheet" href="css/vendor/jq-ui.css">
+    <link rel="stylesheet" href="css/vendor/select2.css">
+    <link rel="stylesheet" href="css/vendor/swiper.css">
+    <link rel="stylesheet" href="css/vendor/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <header class="header header--white">
+        <div class="container flex center spb">
+
+            <svg class="ham hamRotate ham4 nav--btn" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path
+                      class="line top"
+                      d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path
+                      class="line middle"
+                      d="m 70,50 h -40" />
+                <path
+                      class="line bottom"
+                      d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+              </svg>
+
+            <nav class="nav">
+                <a href="models.html">Модельный ряд</a>
+                <a href="credit.html">Автокредит</a>
+                <a href="tradein.html">Trade-in</a>
+                <a href="actions.html">Акции</a>
+                <a href="gos.html">Госпрограммы</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+
+            <a href="#modal__backcall" class="header__callink" data-fancybox>Заказать звонок</a>
+
+            <a href="tel:88001234567" class="header__phone">
+                <img src="./img/phw.svg" alt="" class="logo--w">
+                <img src="./img/phd.svg" alt="" class="logo--d">
+                <span>8 (800) 123-45-67</span>
+            </a>
+
+        </div>
+
+        <div class="header__logorow">
+            <a href="index.html" class="header__logolink">
+                <img src="./img/logo.svg" alt="" class="logo--w">
+                <img src="./img/logod.svg" alt="" class="logo--d">
+            </a>
+        </div>
+    </header>
+
+    <div id="modal__backcall" style="display: none;" class="modal">
+        <h3 class="modal__title">Обратный звонок</h3>
+        <form action="" class="modal__form">
+            <input type="text" name="name" placeholder="Имя">
+            <input type="tel" name="phone" placeholder="Телефон">
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="bread pt40">
+            <div class="container">
+                <a href="index.html">Главная</a>
+                <div>Модельный ряд</div>
+            </div>
+        </div>
+
+        <section class="">
+            <div class="container">
+                <h2 class="wow fadeInUp">Модельный ряд <b>автомобилей Volkswagen</b></h2>
+                <div class="hidemob newautocard__grid">
+                    <a href="card.html" class="newautocard">
+                        <img src="./img/c1.png" alt="" class="newautocard__pic">
+                        <div class="newautocard__name">Polo</div>
+                    </a>
+
+                    <a href="card.html" class="newautocard">
+                        <img src="./img/c2.png" alt="" class="newautocard__pic">
+                        <div class="newautocard__name">Passat</div>
+                    </a>
+
+                    <a href="card.html" class="newautocard">
+                        <img src="./img/c3.png" alt="" class="newautocard__pic">
+                        <div class="newautocard__name">НОВЫЙ Golf</div>
+                    </a>
+
+                    <a href="card.html" class="newautocard">
+                        <img src="./img/c4.png" alt="" class="newautocard__pic">
+                        <div class="newautocard__name">НОВЫЙ Taos</div>
+                    </a>
+
+                    <a href="card.html" class="newautocard">
+                        <img src="./img/c5.png" alt="" class="newautocard__pic">
+                        <div class="newautocard__name">Tiguan</div>
+                    </a>
+
+                    <a href="card.html" class="newautocard">
+                        <img src="./img/c6.png" alt="" class="newautocard__pic">
+                        <div class="newautocard__name">НОВЫЙ Teramont</div>
+                    </a>
+
+                    <a href="card.html" class="newautocard">
+                        <img src="./img/c7.png" alt="" class="newautocard__pic">
+                        <div class="newautocard__name">Tuareg</div>
+                    </a>
+                </div>
+
+                <div class="showmob newautocard__swiper">
+                    <div class="swiper-wrapper">
+                        <a href="card.html" class="newautocard swiper-slide">
+                            <img src="./img/c1.png" alt="" class="newautocard__pic">
+                            <div class="newautocard__name">Polo</div>
+                        </a>
+
+                        <a href="card.html" class="newautocard swiper-slide">
+                            <img src="./img/c2.png" alt="" class="newautocard__pic">
+                            <div class="newautocard__name">Passat</div>
+                        </a>
+
+                        <a href="card.html" class="newautocard swiper-slide">
+                            <img src="./img/c3.png" alt="" class="newautocard__pic">
+                            <div class="newautocard__name">НОВЫЙ Golf</div>
+                        </a>
+
+                        <a href="card.html" class="newautocard swiper-slide">
+                            <img src="./img/c4.png" alt="" class="newautocard__pic">
+                            <div class="newautocard__name">НОВЫЙ Taos</div>
+                        </a>
+
+                        <a href="card.html" class="newautocard swiper-slide">
+                            <img src="./img/c5.png" alt="" class="newautocard__pic">
+                            <div class="newautocard__name">Tiguan</div>
+                        </a>
+
+                        <a href="card.html" class="newautocard swiper-slide">
+                            <img src="./img/c6.png" alt="" class="newautocard__pic">
+                            <div class="newautocard__name">НОВЫЙ Teramont</div>
+                        </a>
+
+                        <a href="card.html" class="newautocard swiper-slide">
+                            <img src="./img/c7.png" alt="" class="newautocard__pic">
+                            <div class="newautocard__name">Tuareg</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="choice__bar">
+                    <form class="choice__row">
+                        <select class="select2" name="a" style="width: 100%">
+                            <option value="" disabled selected>Тип автомобиля</option>
+                            <option value="Polo">Polo</option>
+                            <option value="Type2">Type2</option>
+                            <option value="Type3">Type3</option>
+                            <option value="Type4">Type4</option>
+                            <option value="Type5">Type5</option>
+                        </select>
+
+                        <select class="select2" name="s" style="width: 100%">
+                            <option value="" disabled selected>Двигатель</option>
+                            <option value="Polo">Двигатель</option>
+                            <option value="Type2">Type2</option>
+                            <option value="Type4">Type4</option>
+                            <option value="Type5">Type5</option>
+                        </select>
+
+                        <select class="select2" name="d" style="width: 100%">
+                            <option value="" disabled selected>КПП</option>
+                            <option value="Polo">Auto</option>
+                            <option value="Type2">Meh</option>
+                            <option value="Type5">Type5</option>
+                        </select>
+
+                        <select class="select2" name="f" style="width: 100%">
+                            <option value="" disabled selected>Стоимость</option>
+                            <option value="Polo">1</option>
+                            <option value="Type2">2</option>
+                            <option value="Type5">888</option>
+                        </select>
+
+                        <button class="btn btn--bordered btn--circled">Показать варианты <div class="btn__circle">39</div></button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="wow fadeInUp">Всем покупателям <b>ПОДАРКИ!</b></h2>
+
+                <div class="news__row">
+                    <div class="news__col">
+                        <div class="news__unit wow fadeInUp " data-wow-delay=".4s">
+                            <img src="./img/g1.jpg" alt="" class="news__pic" loading="lazy">
+                            <div class="news__name">КАСКО <b>в ПОДАРОК!</b></div>
+                            <div class="news__sub">При покупке автомобиля Volkswagen в кредит, мы дарим каждому покупателю КАСКО или другие подарки на выбор!
+                            </div>
+                            <a href="#" class="news__link btn btn--bordered">Получить подарок</a>
+                        </div>
+                    </div>
+
+                    <div class="news__col">
+                        <div class="news__unit wow fadeInUp " data-wow-delay=".2s">
+                            <img src="./img/g2.jpg" alt="" class="news__pic" loading="lazy">
+                            <div class="news__name">Зимняя резина <b>в ПОДАРОК!</b></div>
+                            <div class="news__sub">При покупке автомобиля Volkswagen в кредит, мы дарим каждому покупателю комплект зимней резины или другие подарки на выбор!
+                            </div>
+                            <a href="#" class="news__link btn btn--bordered">Получить подарок</a>
+                        </div>
+                    </div>
+
+                    <div class="news__col">
+                        <div class="news__unit wow fadeInUp " data-wow-delay=".6s">
+                            <img src="./img/g3.jpg" alt="" class="news__pic" loading="lazy">
+                            <div class="news__name">Первый платеж по кредиту <b>в ПОДАРОК!</b>
+                            </div>
+                            <div class="news__sub">При покупке автомобиля Volkswagen в кредит, мы дарим каждому покупателю первый платеж по кредиту или другие подарки на выбор!
+                            </div>
+                            <a href="#" class="news__link btn btn--bordered">Получить подарок</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="cars__grid">
+                    <div class="cars__card">
+                        <div class="cars__top cars__top--darkgray">
+                            <h2 class="cars__name"><b>Polo</b></h2>
+                            <img src="./img/w1.png" alt="" class="cars__pic">
+                        </div>
+                        <div class="cars__bottom">
+                            <div class="old cars__oldprice">от 2 326 700 ₽</div>
+                            <div class="cars__newprice">от 1 754 900 ₽</div>
+                            <div class="cars__credit">в кредит от 25 000 ₽/мес.</div>
+                            <div class="cars__btnsrow">
+                                <button class="btn btn--blue">Купить в кредит</button>
+                                <button class="btn btn--bordered">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cars__card">
+                        <div class="cars__top cars__top--gray">
+                            <h2 class="cars__name"><b>Passat</b></h2>
+                            <img src="./img/w2.png" alt="" class="cars__pic">
+                        </div>
+                        <div class="cars__bottom">
+                            <div class="old cars__oldprice">от 2 326 700 ₽</div>
+                            <div class="cars__newprice">от 1 754 900 ₽</div>
+                            <div class="cars__credit">в кредит от 25 000 ₽/мес.</div>
+                            <div class="cars__btnsrow">
+                                <button class="btn btn--blue">Купить в кредит</button>
+                                <button class="btn btn--bordered">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cars__card">
+                        <div class="cars__top cars__top--green">
+                            <h2 class="cars__name"><b>НОВЫЙ Golf</b></h2>
+                            <img src="./img/w3.png" alt="" class="cars__pic">
+                        </div>
+                        <div class="cars__bottom">
+                            <div class="old cars__oldprice">от 2 326 700 ₽</div>
+                            <div class="cars__newprice">от 1 754 900 ₽</div>
+                            <div class="cars__credit">в кредит от 25 000 ₽/мес.</div>
+                            <div class="cars__btnsrow">
+                                <button class="btn btn--blue">Купить в кредит</button>
+                                <button class="btn btn--bordered">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cars__card">
+                        <div class="cars__top cars__top--org">
+                            <h2 class="cars__name"><b>НОВЫЙ Taos</b></h2>
+                            <img src="./img/w4.png" alt="" class="cars__pic">
+                        </div>
+                        <div class="cars__bottom">
+                            <div class="old cars__oldprice">от 2 326 700 ₽</div>
+                            <div class="cars__newprice">от 1 754 900 ₽</div>
+                            <div class="cars__credit">в кредит от 25 000 ₽/мес.</div>
+                            <div class="cars__btnsrow">
+                                <button class="btn btn--blue">Купить в кредит</button>
+                                <button class="btn btn--bordered">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cars__card">
+                        <div class="cars__top cars__top--lg">
+                            <h2 class="cars__name"><b>Tiguan</b></h2>
+                            <img src="./img/w5.png" alt="" class="cars__pic">
+                        </div>
+                        <div class="cars__bottom">
+                            <div class="old cars__oldprice">от 2 326 700 ₽</div>
+                            <div class="cars__newprice">от 1 754 900 ₽</div>
+                            <div class="cars__credit">в кредит от 25 000 ₽/мес.</div>
+                            <div class="cars__btnsrow">
+                                <button class="btn btn--blue">Купить в кредит</button>
+                                <button class="btn btn--bordered">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cars__card">
+                        <div class="cars__top cars__top--lg2">
+                            <h2 class="cars__name"><b>НОВЫЙ Teramont</b></h2>
+                            <img src="./img/w6.png" alt="" class="cars__pic">
+                        </div>
+                        <div class="cars__bottom">
+                            <div class="old cars__oldprice">от 2 326 700 ₽</div>
+                            <div class="cars__newprice">от 1 754 900 ₽</div>
+                            <div class="cars__credit">в кредит от 25 000 ₽/мес.</div>
+                            <div class="cars__btnsrow">
+                                <button class="btn btn--blue">Купить в кредит</button>
+                                <button class="btn btn--bordered">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cars__card">
+                        <div class="cars__top cars__top--black">
+                            <h2 class="cars__name"><b>Tuareg</b></h2>
+                            <img src="./img/w7.png" alt="" class="cars__pic">
+                        </div>
+                        <div class="cars__bottom">
+                            <div class="old cars__oldprice">от 2 326 700 ₽</div>
+                            <div class="cars__newprice">от 1 754 900 ₽</div>
+                            <div class="cars__credit">в кредит от 25 000 ₽/мес.</div>
+                            <div class="cars__btnsrow">
+                                <button class="btn btn--blue">Купить в кредит</button>
+                                <button class="btn btn--bordered">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="overflow">
+            <div class="container">
+                <div class="bnr">
+                    <img src="./img/bnr.jpg" alt="" class="bnr__rpic wow slideInLeft" loading="lazy">
+                    <div class="bnr__desc wow slideInRight">
+                        <div class="bnr__spec">
+                            Специальное предложение!
+                            <div>
+                                Дополнительная <nobr>СКИДКА 10%</nobr>
+                            </div>
+                        </div>
+                        <div class="bnr__sub">
+                            При покупке автомобиля Volkswagen в кредит, <br>действует дополнительная скидка 10%
+                        </div>
+
+                        <button class="btn btn--bordered">
+                        Получить скидку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__nav">
+                    <a href="models.html">Модельный ряд</a>
+                    <a href="credit.html">Автокредит</a>
+                    <a href="tradein.html">Trade-in</a>
+                    <a href="actions.html">Акции</a>
+                    <a href="gos.html">Госпрограммы</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+
+                <a href="#modal__backcall" class="footer__callink" data-fancybox>Заказать звонок</a>
+
+                <a href="tel:88001234567" class="footer__phone">
+                    <img src="./img/ph.svg" alt="">
+                    <span>8 (800) 123-45-67</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container">
+                Стоимость подарка не зависит от стоимости купленного а/м, покупатель может выбрать любой подарок из перечисленных при покупке а/м. Обращаем Ваше внимание на то, что данный сайт носит исключительно информационный характер и ни при каких условиях не является
+                публичной офертой, определяемой положениями статьи 437 Гражданского кодекса Российской Федерации. Политика конфиденциальности Для получения более подробной информации об указанных акциях, а также о стоимости автомобилей обращайтесь к менеджерам
+                по продажам.
+            <div>
+        </div>
+
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery.fancybox.min.js"></script>
+    <script src="js/vendor/select2.js"></script>
+    <script src="js/vendor/swiper.js"></script>
+    <!-- <script src="js/vendor/simp.js"></script> -->
+    <script src="js/common.js"></script>
+
+
+</body>
+
+</html>
